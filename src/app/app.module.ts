@@ -25,6 +25,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
 import { VoltageChartComponent } from './chart/voltage-chart/voltage-chart.component';
 import { CurrentChartComponent } from './chart/current-chart/current-chart.component';
 import { SvZoomComponent } from './table-content/sv-zoom/sv-zoom.component';
+import { VectorChartComponent } from './chart/vector-chart/vector-chart.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { SvZoomComponent } from './table-content/sv-zoom/sv-zoom.component';
     GridViewComponent,
     VoltageChartComponent,
     CurrentChartComponent,
-    SvZoomComponent
+    SvZoomComponent,
+    VectorChartComponent
   ],
   imports: [
     BrowserModule,
