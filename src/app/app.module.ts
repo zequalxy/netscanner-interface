@@ -26,6 +26,7 @@ import { VoltageChartComponent } from './chart/voltage-chart/voltage-chart.compo
 import { CurrentChartComponent } from './chart/current-chart/current-chart.component';
 import { SvZoomComponent } from './table-content/sv-zoom/sv-zoom.component';
 import { VectorChartComponent } from './chart/vector-chart/vector-chart.component';
+import { GooseTableComponent } from './table-content/goose-table/goose-table.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { VectorChartComponent } from './chart/vector-chart/vector-chart.componen
     VoltageChartComponent,
     CurrentChartComponent,
     SvZoomComponent,
-    VectorChartComponent
+    VectorChartComponent,
+    GooseTableComponent
   ],
   imports: [
     BrowserModule,

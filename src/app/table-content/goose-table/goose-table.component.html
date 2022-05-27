@@ -1,0 +1,29 @@
+<p>{{title}}</p>
+<div class="table-container mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="AppID">
+      <th mat-header-cell *matHeaderCellDef> AppID </th>
+      <td mat-cell *matCellDef="let element"> {{element.appID}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="macDst">
+      <th mat-header-cell *matHeaderCellDef> macDst </th>
+      <td mat-cell *matCellDef="let element"> {{element.macDst}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="GOCB">
+      <th mat-header-cell *matHeaderCellDef> GOCB </th>
+      <td mat-cell *matCellDef="let element"> {{element.GOCB}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="datSet">
+      <th mat-header-cell *matHeaderCellDef> datSet </th>
+      <td mat-cell *matCellDef="let element"> {{element.datSet}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr mat-row
+        *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>

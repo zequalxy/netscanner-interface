@@ -1,0 +1,21 @@
+
+.pass-container {
+  color: white;
+}
+.pass-container mat-label {
+  color: white;
+}
+.btn-group {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.btn-group button {
+  color: white;
+  border-color: white;
+  margin: 8px;
+  font-size: 12px;
+}
+.main-group {
+}

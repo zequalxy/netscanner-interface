@@ -1,0 +1,67 @@
+.grid {
+  left: 0;
+  top: 38px;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+mat-grid-tile {
+}
+mat-grid-tile p {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  transform: rotate(-90deg);
+}
+
+.btn-group {
+  bottom: 10px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-group button {
+  margin: 8px;
+  color: white;
+  border-color: white;
+  font-size: 12px;
+  width: 90%;
+  padding: 0;
+}
+.title {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 10px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.orientation {
+  display: none;
+}
+@media screen and (orientation: portrait) {
+  .orientation {
+    display: block;
+  }
+  .grid, .title {
+    display: none;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 16px;
+  }
+  p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
+}

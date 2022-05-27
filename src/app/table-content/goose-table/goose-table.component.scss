@@ -1,0 +1,48 @@
+p {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 10px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (orientation: landscape) {
+  .table-container {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    overflow: auto;
+  }
+  .mat-header-cell {
+    text-align: center;
+    background-color: lightgray;
+
+  }
+  td.mat-cell {
+    text-align: center;
+    background-color: white;
+    padding: 8px 16px;
+  }
+  .demo-row-is-clicked {
+    font-weight: bold;
+  }
+
+  table {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    border-spacing: 8px 8px !important;
+  }
+
+}
+@media screen and (orientation: portrait) {
+  .table-container {
+    box-shadow: none;
+  }
+  table {
+    display: none;
+  }
+}

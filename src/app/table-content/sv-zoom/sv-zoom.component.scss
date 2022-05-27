@@ -1,0 +1,61 @@
+p {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 10px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (orientation: landscape) {
+  .table-container {
+    box-shadow: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 70%;
+    width: 50%;
+    overflow: auto;
+  }
+
+  td.mat-cell {
+    text-align: center;
+    background-color: #3D4245;
+    padding: 6px;
+    color: white;
+  }
+  tr.mat-row {
+    height: 20px;
+  }
+
+  table {
+    height: 100%;
+    margin-left: 5px;
+    width: 90%;
+    background-color: white;
+    border-spacing: 1px 1px !important;
+  }
+  .mat-text-column {
+    background-color: black;
+  }
+  .vector-diagram {
+    width: 52%;
+    right: 5px;
+    top: 40px;
+    height: 70%;
+    position: absolute;
+  }
+
+}
+@media screen and (orientation: portrait) {
+  table {
+    display: none;
+  }
+  .vector-diagram {
+    display: none;
+  }
+  .table-container {
+    box-shadow: none;
+  }
+}

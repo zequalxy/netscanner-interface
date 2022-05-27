@@ -1,0 +1,25 @@
+<p>{{title}}</p>
+<div class="table-container mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="svID">
+      <th mat-header-cell *matHeaderCellDef> svID </th>
+      <td mat-cell *matCellDef="let element"> {{element.svID}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="AppID">
+      <th mat-header-cell *matHeaderCellDef> AppID </th>
+      <td mat-cell *matCellDef="let element"> {{element.appID}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="mac_destination">
+      <th mat-header-cell *matHeaderCellDef> mac_destination </th>
+      <td mat-cell *matCellDef="let element"> {{element.macDestination}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr mat-row
+        (click)="goToSvZoom(row, title)"
+    *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>

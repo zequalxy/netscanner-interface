@@ -1,0 +1,17 @@
+p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.btn {
+  position: absolute;
+  margin-top: 16px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.btn button {
+  color: white;
+  border-color: white;
+  font-size: 12px;
+}

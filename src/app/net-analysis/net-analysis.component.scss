@@ -1,0 +1,25 @@
+.btn-group {
+    margin: auto 64px;
+}
+.btn-group button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.head {
+  top: 0;
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+}
+.head h2 {
+  margin-bottom: 1px;
+}
+.head small {
+  font-size: 0.7em;
+}

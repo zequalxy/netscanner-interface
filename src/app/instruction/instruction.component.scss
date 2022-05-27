@@ -1,0 +1,42 @@
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: auto 16px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.head {
+  top: 0;
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+}
+
+.btn-group {
+    margin: auto 64px;
+}
+.btn-group button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.instruction {
+}
+.head h2 {
+  margin-bottom: 1px;
+}
+.head small {
+  font-size: 0.7em;
+}

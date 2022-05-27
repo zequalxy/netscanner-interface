@@ -1,0 +1,16 @@
+.voltage-chart {
+  border: 1px solid black;
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.current-chart {
+  border: 1px solid black;
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
