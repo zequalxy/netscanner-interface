@@ -21,6 +21,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ![Screen1](/src/assets/screen1.png?raw=true)
 ![Screen2](/src/assets/screen2.png?raw=true)
 ![Screen3](/src/assets/screen3.png?raw=true)
+![Screen4](/src/assets/screen4.png?raw=true)
 
 ## Further help
 
